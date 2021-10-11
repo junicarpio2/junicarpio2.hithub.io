@@ -1,0 +1,132 @@
+@font-face{
+    src:url('dexu.otf');
+    font-family:det;
+
+}
+@font-face{
+    src:url('aer.ttf');
+    font-family:let;
+
+}
+
+body{
+    background-color: rgb(126, 138, 126);
+}
+.titulo{
+    background-color: rgba(255, 255, 255, 0.693);
+    text-shadow: 15px 12px rgba(72, 14, 232, 0.302);
+    color:rgb(10, 25, 73);
+    font-family:let;
+    text-align:center;
+    font-size : 65px;
+    margin: 10px 118px ;
+    border: 10px black solid;
+}
+.nin img{
+    margin: 10px 500px;
+    border: 5px black solid;
+    border-radius: 50%;
+    display: block;
+}
+h2{
+    background-color: rgba(250, 236, 41, 0.837);
+    font-size : 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(109, 13, 13);
+    border: 10px black solid;
+    font-style: italic;
+    margin-right: 680px;
+}
+h3{
+    background-color: rgba(255, 255, 255, 0.693);
+    font-size : 45px;
+    font-family: cursive;
+    color:rgb(221, 88, 16);
+    border: 10px black solid;
+    font-style: italic;
+}
+h4{
+    background-color: rgba(255, 255, 255, 0.693);
+    font-size : 45px;
+    font-family: det;
+    color:rgb(20, 8, 242);
+    border: 5px black solid;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.693);
+    font-size : 35px;
+    font-family: det;
+    color:rgb(13, 19, 109);
+    border: 5px black solid;
+}
+table{
+    background-color:rgba(23, 11, 136, 0.398);
+    border: 8px black solid;
+}
+td{
+    background-color: rgba(221, 221, 225, 0.467);
+    color: rgb(15, 26, 112);
+    font-size: 30px;
+    border: 3px black solid;
+    text-align: center;
+}
+
+th{
+    color: cyan;
+    background-color: blue;
+    font-size: 35px;
+    border: 3px black solid;
+}
+.ingles{
+    background-color: brown;
+    color: whitesmoke;
+}
+.musica{
+    background-color: rgb(27, 128, 13);
+    color: whitesmoke;
+}
+ul{
+    background-color: rgba(33, 199, 211, 0.426);
+    color: rgb(227, 238, 13);
+    font-size : 35px;
+    border: 10px black solid;
+    line-height: 50px;
+}
+.ni{
+    border: 5px black solid;
+    border-radius: 50%;
+    display: block;
+}
+.comida{
+    background-color: rgba(24, 12, 128, 0.549);
+    border: 10px rgb(3, 60, 3) solid;
+    margin: 10px;
+}
+form{
+    background-color: green;
+    border: 5px greenyellow solid;
+    width: 70%;
+    margin: 20px;
+    padding: 15px;
+}
+label{
+    display: block;
+    font-size: 30px;
+}
+input{
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+textarea{
+    margin-bottom: 30px;
+    width: 100%;
+    display: block; 
+    font-size: 20px;
+    border: 3px black solid;
+    
+}
+button{
+    font-size: 25px;
+    width: 100%;
+}
